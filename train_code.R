@@ -318,8 +318,8 @@ confusionMatrix(pred_rf, test$gender)
 
 saveRDS(model_rf_new_features, "Models/RF_Optimized.rds")
 
-#write.csv(I_train_E, "C:/Users/jain.k.5/Downloads/Hackathon/Hackathon Files/TrainingDataForLGBM.csv", row.names = FALSE)
-#write.csv(I_test_E, "C:/Users/jain.k.5/Downloads//Hackathon/Hackathon Files/TestDataForLGBM.csv", row.names = FALSE)
+#write.csv(I_train_E, "TrainingDataForLGBM.csv", row.names = FALSE)
+#write.csv(I_test_E, "TestDataForLGBM.csv", row.names = FALSE)
 
-#write.csv(Dataset_Train, "C:/Users/jain.k.5/Downloads/Hackathon/Hackathon Files/TrainingDataForLGBM.csv", row.names = FALSE)
-#write.csv(Dataset_Test, "C:/Users/jain.k.5/Downloads//Hackathon/Hackathon Files/TestDataForLGBM.csv", row.names = FALSE)
+#write.csv(Dataset_Train, "TrainingDataForLGBM.csv", row.names = FALSE)
+#write.csv(Dataset_Test, "TestDataForLGBM.csv", row.names = FALSE)
